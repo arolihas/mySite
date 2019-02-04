@@ -36,11 +36,11 @@ function addContent(contentToAdd, callback) {
 
 setTimeout(function() {
     deleteContent(function() {
-        addContent("a developer", function() {
+        addContent("a Python and Java developer", function() {
             deleteContent(function() {
-                addContent("a fan of JavaScript", function() {
+                addContent("a ML/AI enthusiast", function() {
                     deleteContent(function() {
-                        addContent("skilled with Python, Java, and data analytics", function() {
+                        addContent("skilled in Node.js and Angular", function() {
                             deleteContent(function() {
                                 addContent("Sahil");
                             })
